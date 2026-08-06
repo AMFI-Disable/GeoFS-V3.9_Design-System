@@ -115,7 +115,7 @@
 // @icon                https://geofs-assets.evengao6688.workers.dev/icons/design-system.png
 
 // @namespace           https://greasyfork.org/users/1594049
-// @version             2.0.0
+// @version             2.0.1
 // @author              _init
 // @match               https://www.geo-fs.com/geofs.php*
 // @grant               none
@@ -124,8 +124,8 @@
 // @updateURL https://update.greasyfork.org/scripts/581511/GeoFS-V39_Design-System.meta.js
 // ==/UserScript==
 
-(function () {
-    'use strict';
+(() => {
+    
     if (document.getElementById('geofs-design-system')) return;
     
     const css = `
@@ -617,5 +617,5 @@
     document.head.appendChild(style);
     
     console.log("[GeoFS-V3.9_Design-System] >> Styles injected via library wrapper.");
-    if (window.V39_NOTIF) window.V39_NOTIF.success("GeoFS-V3.9_Design-System V2.0.0 Loaded.");
+    if (window.V39_NOTIF) window.V39_NOTIF.success("GeoFS-V3.9_Design-System V2.0.1 Loaded.");
 })();

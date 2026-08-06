@@ -1,6 +1,6 @@
-# GeoFS-V3.9_Design-System
+# **GeoFS-V3.9**_Design-System
 
-![Version](https://img.shields.io/badge/Version-V2.0.0-3b82f6?style=flat-square&logo=git&logoColor=white)
+![Version](https://img.shields.io/badge/Version-V2.0.1-3b82f6?style=flat-square&logo=git&logoColor=white)
 ![Ecosystem](https://img.shields.io/badge/GeoFS--V3.9-Design_System-6366f1?style=flat-square&logo=blueprint&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Stable-10b981?style=flat-square&logo=lighthouse&logoColor=white)
 
@@ -22,4 +22,4 @@ The official visual language and UI token library for **GeoFS-V3.9**. This syste
 2. Install the script via [**Greasy Fork**](https://greasyfork.org/en/scripts/581511-geofs-v3-9-design-system).
 3. This module acts as a dependency/visual base and runs automatically in the background to assist other modules.
 
-*© 2026 _init. Part of the [GeoFS-V3.9_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
+*© 2026 _init. Part of the [**GeoFS-V3.9**_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
