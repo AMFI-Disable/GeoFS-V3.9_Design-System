@@ -51,57 +51,57 @@
 // @name:lo             GeoFS-V3.9_ລະບົບການອອກແບບ
 // @name:ur             GeoFS-V3.9_ڈیزائن-سسٹم
 
-// @description         A unified design framework for GeoFS-V3.9, delivering a premium native-feel dark-grey and orange UI across all standalone modules. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:vi      Khung thiết kế thống nhất cho GeoFS-V3.9, cung cấp giao diện người dùng màu xám đậm và cam cao cấp trên tất cả các mô-đun độc lập. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zh-CN   GeoFS-V3.9 的统一设计框架，在所有独立模块中提供优质的原生感深灰色和橙色 UI。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zh-TW   GeoFS-V3.9 的統一設計框架，在所有獨立模組中提供優質的原生感深灰色和橙色 UI。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ja      GeoFS-V3.9 の統合設計フレームワークは、すべてのスタンドアロン モジュールにわたってプレミアムなネイティブ感のあるダークグレーとオレンジの UI を提供します。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ko      모든 독립형 모듈에 걸쳐 프리미엄 기본 느낌의 다크 그레이 및 오렌지 UI를 제공하는 GeoFS-V3.9용 통합 디자인 프레임워크입니다. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fr      Un cadre de conception unifié pour GeoFS-V3.9, offrant une interface utilisateur gris foncé et orange haut de gamme sur tous les modules autonomes. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:de      Ein einheitliches Design-Framework für GeoFS-V3.9, das auf allen eigenständigen Modulen eine erstklassige, naturnahe dunkelgraue und orangefarbene Benutzeroberfläche bietet. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:es      Un marco de diseño unificado para GeoFS-V3.9, que ofrece una interfaz de usuario premium en gris oscuro y naranja en todos los módulos independientes. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pt-BR   Uma estrutura de design unificada para GeoFS-V3.9, oferecendo uma interface de usuário cinza escuro e laranja premium em todos os módulos independentes. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pt-PT   Uma estrutura de design unificada para o GeoFS-V3.9, oferecendo uma interface de utilizador cinzenta escura e laranja premium em todos os módulos independentes. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ru      Унифицированная среда проектирования для GeoFS-V3.9, обеспечивающая первоклассный темно-серый и оранжевый пользовательский интерфейс для всех автономных модулей. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ar      إطار تصميم موحد لـ GeoFS-V3.9، يقدم واجهة مستخدم رمادية داكنة وبرتقالية متميزة عبر جميع الوحدات المستقلة. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:tr      GeoFS-V3.9 için tüm bağımsız modüllerde birinci sınıf koyu gri ve turuncu renkli kullanıcı arayüzü sunan birleşik bir tasarım çerçevesi. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:id      Kerangka desain terpadu untuk GeoFS-V3.9, menghadirkan UI abu-abu gelap dan oranye premium di semua modul mandiri. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:th      กรอบงานการออกแบบที่รวมเป็นหนึ่งสำหรับ GeoFS-V3.9 ซึ่งนำเสนอ UI สีเทาเข้มและสีส้มระดับพรีเมียมในทุกโมดูลแบบสแตนด์อโลน © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pl      Ujednolicone środowisko projektowe dla GeoFS-V3.9, zapewniające wysokiej jakości ciemnoszary i pomarańczowy interfejs użytkownika we wszystkich samodzielnych modułach. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:nl      Een uniform ontwerpframework voor GeoFS-V3.9, dat een premium donkergrijze en oranje gebruikersinterface levert voor alle zelfstandige modules. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:it      Un framework di progettazione unificato per GeoFS-V3.9, che offre un'interfaccia utente grigio scuro e arancione premium su tutti i moduli autonomi. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sv      Ett enhetligt designramverk för GeoFS-V3.9, som ger ett förstklassigt mörkgrått och orange användargränssnitt över alla fristående moduler. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:da      En samlet designramme for GeoFS-V3.9, der leverer en premium mørkegrå og orange brugerflade på tværs av alle selvstændige moduler. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fi      Yhtenäinen suunnittelukehys GeoFS-V3.9:lle, joka tarjoaa ensiluokkaisen tummanharmaan ja oranssin käyttöliittymän kaikissa erillisissä moduuleissa. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:nb      Et enhetlig designrammeverk for GeoFS-V3.9, som leverer et premium mørkegrått og oransje brukergrensesnitt på tvers av alle frittstående moduler. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:cs      Jednotný designový rámec pro GeoFS-V3.9 poskytující prémiové tmavě šedé a oranžové uživatelské rozhraní napříč všemi samostatnými moduly. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hu      Egységes tervezési keretrendszer a GeoFS-V3.9-hez, amely prémium sötétszürke és narancssárga felhasználói felületet biztosít az összes önálló modulon. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ro      Un cadru de design unificat pentru GeoFS-V3.9, oferind o interfață de utilizare premium gri închis și portocaliu pentru toate modulele independente. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:uk      Уніфікована структура дизайну для GeoFS-V3.9, що забезпечує преміум-темно-сірий та оранжевий інтерфейс користувача для всіх автономних модулей. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hi      जियोएफएस-वी3.9 के लिए एक एकीकृत डिजाइन ढांचा, सभी स्टैंडअलोน मॉड्यूल में एक प्रीमियम डार्क-ग्रे और ऑरेंज यूआई प्रदान करता है। © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:bn      GeoFS-V3.9 এর জন্য একটি ইউনিফাইড ডিজাইন ফ্রেমওয়ার্ক, সমস্ত স্বতন্ত্র মডিউল জুড়ে একটি প্রিমিয়াম ডার্ক-গ্রে এবং কমলা রঙের UI প্রদান করে। © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fa      یک چارچوب طراحی یکپارچه برای GeoFS-V3.9، که رابط کاربری خاکستری تیره و نارنجی ممتاز را در همه ماژول‌های مستقل ارائه می‌کند. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:he      מסגרת עיצוב מאוחדת עבור GeoFS-V3.9, המספקת ממשק משתמש אפור כהה וכתום מובחר בכל המודולים העצמאיים. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ms      Rangka kerja reka bentuk bersatu untuk GeoFS-V3.9, memberikan UI kelabu gelap and jingga premium merentas semua modul kendiri. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fil     Isang pinag-isang balangkas ng disenyo para sa GeoFS-V3.9, na naghahatid ng isang premium na dark-grey at orange UI sa lahat ng mga standalone na module. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:el      Ένα ενοποιημένο πλαίσιο σχεδίασης για το GeoFS-V3.9, παρέχοντας ένα premium σκούρο γκρι και πορτοκαλί διεπαφής χρήστη σε όλες τις αυτόνομες μονάδες. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hr      Unificirani okvir dizajna za GeoFS-V3.9, pruža vrhunsko tamnosivo i narančasto korisničko sučelje u svim samostalnim modulima. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sk      Jednotný dizajnový rámec pre GeoFS-V3.9, ktorý poskytuje prémiové tmavosivé a oranžové používateľské rozhranie vo všetkých samostatných moduloch. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:bg      Унифицирана дизайнерска рамка за GeoFS-V3.9, предоставяща първокласен тъмно сив и оранжев потребителски интерфейс във всички самостоятелни модули. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sr      Јединствени оквир дизајна за ГеоФС-В3.9, који пружа врхунски тамносиви и наранџасти кориснички интерфејс за све самосталне модуле. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lt      Vieninga „GeoFS-V3.9“ dizaino sistema, užtikrinanti aukščiausios kokybės tamsiai pilką ir oranžinę vartotojo sąsają visuose atskiruose moduliuose. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lv      Vienots GeoFS-V3.9 dizaina ietvars, kas nodrošina izcilu tumši pelēku un oranžu lietotāja interfeisu visos atsevišķajos moduļos. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:et      GeoFS-V3.9 ühtne disainiraamistik, mis pakub kõigi eraldiseisvate moodulite jaoks esmaklassilist tumehatti ja oranži kasutajaliidest. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sl      Enotno ogrodje zasnove za GeoFS-V3.9, ki zagotavlja vrhunski temno siv in oranžen uporabniški vmesnik v vseh samostojnih modulih. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ca      Un marc de disseny unificat per a GeoFS-V3.9, que ofereix una interfície d'usuari de color gris fosc i taronja a tots els mòduls autònoms. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:af      'n Eenvormige ontwerpraamwerk vir GeoFS-V3.9, wat 'n premium donkergrys en oranje UI oor alle selfstandige modules lewer. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sw      Mfumo wa muundo uliounganishwa wa GeoFS-V3.9, ukitoa UI ya hali ya juu ya kijivu iliyokoza na ya machungwa kwenye moduli zote zinazojitegemea. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zu      Uhlaka oluhlanganisiwe lokuklama lwe-GeoFS-V3.9, oluletha i-premium dark-grey and orange UI kuwo wonke amamojula azimele. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:mn      GeoFS-д зориулсан нэгдсэн дизайны хүрээ нь бүх бие даасан модулиудад дээд зэрэглэлийн бараан саарал болон улбар шар өнгө бүхий UI-г өгдөг. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:my      GeoFS အတွက် ပေါင်းစည်းထားသော ဒီဇိုင်းမူဘောင်တစ်ခု၊ တစ်ဦးတည်းသီးသန့် module အားလုံးတွင် ပရီမီယံ dark-grey နှင့် လိမ္မော်ရောင် UI ကို ပေးဆောင်သည်။ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:km      គ្រោងการណ៍រចនាបង្រួបបង្រួមសម្រាប់ GeoFS-V3.9 ដែលផ្តល់នូវ UI បែបពណ៌ប្រផេះចាស់ និងពណ៌ក្រូចដ៏ប្រណិតនៅទូទាំងម៉ូឌុលដាច់ដោយឡែកទាំងអស់។ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lo      ກອບການອອກແບບທີ່ເປັນເອກະພາບສໍາລັບ GeoFS-V3.9, ສະຫນອງ UI ສີເທົາເຂັ້ມ ແລະ ສີສົ້ມລະດັບພຣີມຽມໃນທົ່ວທຸກໂมດູນ standalone. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ur      GeoFS-V3.9 کے لیے ایک متحد ڈیزائن کا فریم ورک، تمام اسٹینڈ اسٹون ماڈیولز میں ایک پریمیم ڈارک-گرے اور نارنجی UI فراہم کرتا ہے۔ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
+// @description         A unified design framework for GeoFS-V3.9, delivering a premium native-feel dark-grey and orange UI across all standalone modules. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:vi      Khung thiết kế thống nhất cho GeoFS-V3.9, cung cấp giao diện người dùng màu xám đậm và cam cao cấp trên tất cả các mô-đun độc lập. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zh-CN   GeoFS-V3.9 的统一设计框架，在所有独立模块中提供优质的原生感深灰色和橙色 UI。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zh-TW   GeoFS-V3.9 的統一設計框架，在所有獨立模組中提供優質的原生感深灰色和橙色 UI。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ja      GeoFS-V3.9 の統合設計フレームワークは、すべてのスタンドアロン モジュールにわたってプレミアムなネイティブ感のあるダークグレーとオレンジの UI を提供します。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ko      모든 독립형 모듈에 걸쳐 프리미엄 기본 느낌의 다크 그레이 및 오렌지 UI를 제공하는 GeoFS-V3.9용 통합 디자인 프레임워크입니다. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fr      Un cadre de conception unifié pour GeoFS-V3.9, offrant une interface utilisateur gris foncé et orange haut de gamme sur tous les modules autonomes. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:de      Ein einheitliches Design-Framework für GeoFS-V3.9, das auf allen eigenständigen Modulen eine erstklassige, naturnahe dunkelgraue und orangefarbene Benutzeroberfläche bietet. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:es      Un marco de diseño unificado para GeoFS-V3.9, que ofrece una interfaz de usuario premium en gris oscuro y naranja en todos los módulos independientes. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pt-BR   Uma estrutura de design unificada para GeoFS-V3.9, oferecendo uma interface de usuário cinza escuro e laranja premium em todos os módulos independentes. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pt-PT   Uma estrutura de design unificada para o GeoFS-V3.9, oferecendo uma interface de utilizador cinzenta escura e laranja premium em todos os módulos independentes. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ru      Унифицированная среда проектирования для GeoFS-V3.9, обеспечивающая первоклассный темно-серый и оранжевый пользовательский интерфейс для всех автономных модулей. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ar      إطار تصميم موحد لـ GeoFS-V3.9، يقدم واجهة مستخدم رمادية داكنة وبرتقالية متميزة عبر جميع الوحدات المستقلة. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:tr      GeoFS-V3.9 için tüm bağımsız modüllerde birinci sınıf koyu gri ve turuncu renkli kullanıcı arayüzü sunan birleşik bir tasarım çerçevesi. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:id      Kerangka desain terpadu untuk GeoFS-V3.9, menghadirkan UI abu-abu gelap dan oranye premium di semua modul mandiri. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:th      กรอบงานการออกแบบที่รวมเป็นหนึ่งสำหรับ GeoFS-V3.9 ซึ่งนำเสนอ UI สีเทาเข้มและสีส้มระดับพรีเมียมในทุกโมดูลแบบสแตนด์อโลน © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pl      Ujednolicone środowisko projektowe dla GeoFS-V3.9, zapewniające wysokiej jakości ciemnoszary i pomarańczowy interfejs użytkownika we wszystkich samodzielnych modułach. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:nl      Een uniform ontwerpframework voor GeoFS-V3.9, dat een premium donkergrijze en oranje gebruikersinterface levert voor alle zelfstandige modules. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:it      Un framework di progettazione unificato per GeoFS-V3.9, che offre un'interfaccia utente grigio scuro e arancione premium su tutti i moduli autonomi. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sv      Ett enhetligt designramverk för GeoFS-V3.9, som ger ett förstklassigt mörkgrått och orange användargränssnitt över alla fristående moduler. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:da      En samlet designramme for GeoFS-V3.9, der leverer en premium mørkegrå og orange brugerflade på tværs av alle selvstændige moduler. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fi      Yhtenäinen suunnittelukehys GeoFS-V3.9:lle, joka tarjoaa ensiluokkaisen tummanharmaan ja oranssin käyttöliittymän kaikissa erillisissä moduuleissa. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:nb      Et enhetlig designrammeverk for GeoFS-V3.9, som leverer et premium mørkegrått og oransje brukergrensesnitt på tvers av alle frittstående moduler. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:cs      Jednotný designový rámec pro GeoFS-V3.9 poskytující prémiové tmavě šedé a oranžové uživatelské rozhraní napříč všemi samostatnými moduly. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hu      Egységes tervezési keretrendszer a GeoFS-V3.9-hez, amely prémium sötétszürke és narancssárga felhasználói felületet biztosít az összes önálló modulon. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ro      Un cadru de design unificat pentru GeoFS-V3.9, oferind o interfață de utilizare premium gri închis și portocaliu pentru toate modulele independente. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:uk      Уніфікована структура дизайну для GeoFS-V3.9, що забезпечує преміум-темно-сірий та оранжевий інтерфейс користувача для всіх автономних модулей. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hi      जियोएफएस-वी3.9 के लिए एक एकीकृत डिजाइन ढांचा, सभी स्टैंडअलोน मॉड्यूल में एक प्रीमियम डार्क-ग्रे और ऑरेंज यूआई प्रदान करता है। © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:bn      GeoFS-V3.9 এর জন্য একটি ইউনিফাইড ডিজাইন ফ্রেমওয়ার্ক, সমস্ত স্বতন্ত্র মডিউল জুড়ে একটি প্রিমিয়াম ডার্ক-গ্রে এবং কমলা রঙের UI প্রদান করে। © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fa      یک چارچوب طراحی یکپارچه برای GeoFS-V3.9، که رابط کاربری خاکستری تیره و نارنجی ممتاز را در همه ماژول‌های مستقل ارائه می‌کند. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:he      מסגרת עיצוב מאוחדת עבור GeoFS-V3.9, המספקת ממשק משתמש אפור כהה וכתום מובחר בכל המודולים העצמאיים. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ms      Rangka kerja reka bentuk bersatu untuk GeoFS-V3.9, memberikan UI kelabu gelap and jingga premium merentas semua modul kendiri. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fil     Isang pinag-isang balangkas ng disenyo para sa GeoFS-V3.9, na naghahatid ng isang premium na dark-grey at orange UI sa lahat ng mga standalone na module. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:el      Ένα ενοποιημένο πλαίσιο σχεδίασης για το GeoFS-V3.9, παρέχοντας ένα premium σκούρο γκρι και πορτοκαλί διεπαφής χρήστη σε όλες τις αυτόνομες μονάδες. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hr      Unificirani okvir dizajna za GeoFS-V3.9, pruža vrhunsko tamnosivo i narančasto korisničko sučelje u svim samostalnim modulima. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sk      Jednotný dizajnový rámec pre GeoFS-V3.9, ktorý poskytuje prémiové tmavosivé a oranžové používateľské rozhranie vo všetkých samostatných moduloch. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:bg      Унифицирана дизайнерска рамка за GeoFS-V3.9, предоставяща първокласен тъмно сив и оранжев потребителски интерфейс във всички самостоятелни модули. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sr      Јединствени оквир дизајна за ГеоФС-В3.9, који пружа врхунски тамносиви и наранџасти кориснички интерфејс за све самосталне модуле. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lt      Vieninga „GeoFS-V3.9“ dizaino sistema, užtikrinanti aukščiausios kokybės tamsiai pilką ir oranžinę vartotojo sąsają visuose atskiruose moduliuose. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lv      Vienots GeoFS-V3.9 dizaina ietvars, kas nodrošina izcilu tumši pelēku un oranžu lietotāja interfeisu visos atsevišķajos moduļos. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:et      GeoFS-V3.9 ühtne disainiraamistik, mis pakub kõigi eraldiseisvate moodulite jaoks esmaklassilist tumehatti ja oranži kasutajaliidest. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sl      Enotno ogrodje zasnove za GeoFS-V3.9, ki zagotavlja vrhunski temno siv in oranžen uporabniški vmesnik v vseh samostojnih modulih. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ca      Un marc de disseny unificat per a GeoFS-V3.9, que ofereix una interfície d'usuari de color gris fosc i taronja a tots els mòduls autònoms. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:af      'n Eenvormige ontwerpraamwerk vir GeoFS-V3.9, wat 'n premium donkergrys en oranje UI oor alle selfstandige modules lewer. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sw      Mfumo wa muundo uliounganishwa wa GeoFS-V3.9, ukitoa UI ya hali ya juu ya kijivu iliyokoza na ya machungwa kwenye moduli zote zinazojitegemea. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zu      Uhlaka oluhlanganisiwe lokuklama lwe-GeoFS-V3.9, oluletha i-premium dark-grey and orange UI kuwo wonke amamojula azimele. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:mn      GeoFS-д зориулсан нэгдсэн дизайны хүрээ нь бүх бие даасан модулиудад дээд зэрэглэлийн бараан саарал болон улбар шар өнгө бүхий UI-г өгдөг. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:my      GeoFS အတွက် ပေါင်းစည်းထားသော ဒီဇိုင်းမူဘောင်တစ်ခု၊ တစ်ဦးတည်းသီးသန့် module အားလုံးတွင် ပရီမီယံ dark-grey နှင့် လိမ္မော်ရောင် UI ကို ပေးဆောင်သည်။ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:km      គ្រោងการណ៍រចនាបង្រួបបង្រួមសម្រាប់ GeoFS-V3.9 ដែលផ្តល់នូវ UI បែបពណ៌ប្រផេះចាស់ និងពណ៌ក្រូចដ៏ប្រណិតនៅទូទាំងម៉ូឌុលដាច់ដោយឡែកទាំងអស់។ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lo      ກອບການອອກແບບທີ່ເປັນເອກະພາບສໍາລັບ GeoFS-V3.9, ສະຫນອງ UI ສີເທົາເຂັ້ມ ແລະ ສີສົ້ມລະດັບພຣີມຽມໃນທົ່ວທຸກໂมດູນ standalone. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ur      GeoFS-V3.9 کے لیے ایک متحد ڈیزائن کا فریم ورک، تمام اسٹینڈ اسٹون ماڈیولز میں ایک پریمیم ڈارک-گرے اور نارنجی UI فراہم کرتا ہے۔ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 
 // @homepageURL         https://sites.google.com/view/geofs-v39-ecosystem/home
 // @connect             greasyfork.org
@@ -111,12 +111,12 @@
 // @compatible          safari
 // @compatible          brave
 // @compatible          opera
-// @copyright           2026, _init (https://greasyfork.org/users/1594049)
+// @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
 // @icon                https://geofs-assets.evengao6688.workers.dev/icons/design-system.png
 
 // @namespace           https://greasyfork.org/users/1594049
 // @version             2.0.1
-// @author              _init
+// @author              AMFI-Disable
 // @match               https://www.geo-fs.com/geofs.php*
 // @grant               none
 // @license             MIT

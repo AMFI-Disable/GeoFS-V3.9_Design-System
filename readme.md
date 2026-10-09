@@ -22,4 +22,4 @@ The official visual language and UI token library for **GeoFS-V3.9**. This syste
 2. Install the script via [**Greasy Fork**](https://greasyfork.org/en/scripts/581511-geofs-v3-9-design-system).
 3. This module acts as a dependency/visual base and runs automatically in the background to assist other modules.
 
-*© 2026 _init. Part of the [**GeoFS-V3.9**_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
+*© 2026 AMFI-Disable. Part of the [**GeoFS-V3.9**_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
