@@ -51,7 +51,7 @@
 // @name:lo             GeoFS-V3.9_ລະບົບການອອກແບບ
 // @name:ur             GeoFS-V3.9_ڈیزائن-سسٹم
 
-// @description         A unified design framework for GeoFS-V3.9, delivering a premium native-feel dark-grey and orange UI across all standalone modules. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description         A unified design framework matching GeoFS native controls across all standalone modules. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 // @description:vi      Khung thiết kế thống nhất cho GeoFS-V3.9, cung cấp giao diện người dùng màu xám đậm và cam cao cấp trên tất cả các mô-đun độc lập. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 // @description:zh-CN   GeoFS-V3.9 的统一设计框架，在所有独立模块中提供优质的原生感深灰色和橙色 UI。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 // @description:zh-TW   GeoFS-V3.9 的統一設計框架，在所有獨立模組中提供優質的原生感深灰色和橙色 UI。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
@@ -112,10 +112,10 @@
 // @compatible          brave
 // @compatible          opera
 // @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
-// @icon                https://geofs-assets.evengao6688.workers.dev/icons/design-system.png
+// @icon                https://www.geo-fs.com/images/icons/favicon.ico
 
 // @namespace           https://greasyfork.org/users/1594049
-// @version             2.0.1
+// @version             2.0.5
 // @author              AMFI-Disable
 // @match               https://www.geo-fs.com/geofs.php*
 // @grant               none
@@ -147,7 +147,7 @@
     
     const css = `
 /* ── GeoFS-V3.9_Design-System ── */
-/* Features: Native GeoFS styling layout with dark panels, white text, and orange highlights. */
+/* Features: Native GeoFS styling layout with native in-flight controls and neutral colors. */
 
 /* ── Addon-Pack dropdown items ── */
 .addonpack-dropdown {
@@ -171,7 +171,7 @@
 }
 .addonpack-dropdown:hover {
     background: rgba(45, 45, 45, 0.95);
-    border-color: rgba(255, 159, 5, 0.4);
+    border-color: rgba(255, 255, 255, 0.4);
     transform: translateX(2px);
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
@@ -182,7 +182,7 @@
     margin-right: 8px;
     font-size: 10px;
     transition: transform 0.3s ease;
-    color: #ff9f05;
+    color: #dddddd;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -199,7 +199,7 @@
     padding: 0 8px;
     background: rgba(20, 20, 20, 0.95);
     border-radius: 8px;
-    border: 1px solid rgba(255, 159, 5, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 2px 4px 8px 4px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -216,7 +216,7 @@
     padding: 8px 12px;
     margin: 2px 0;
     border-radius: 6px;
-    background: rgba(255, 159, 5, 0.03);
+    background: rgba(255, 255, 255, 0.03);
     color: #eef2f7;
     font-size: 12.5px;
     font-weight: 500;
@@ -226,8 +226,8 @@
     user-select: none;
 }
 .addonpack-sub-item:hover {
-    background: rgba(255, 159, 5, 0.08);
-    border-left-color: #ff9f05;
+    background: rgba(255, 255, 255, 0.08);
+    border-left-color: #dddddd;
     color: #ffffff;
 }
 
@@ -242,7 +242,7 @@
     font-size: 11.5px;
     line-height: 1.5;
     white-space: pre-wrap;
-    border-left: 2px solid rgba(255, 159, 5, 0.5);
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
     margin-left: 12px;
 }
 .addonpack-description.open {
@@ -260,7 +260,7 @@
     background: rgba(26, 26, 26, 0.9);
     padding: 14px 16px;
     border-radius: 12px;
-    font-family: 'Roboto Mono', 'Consolas', monospace;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     font-size: 12.5px;
     font-weight: 600;
     color: #e0e8f0;
@@ -278,7 +278,7 @@
     user-select: none;
 }
 #flightDataDisplay .hud-label {
-    color: #ff9f05;
+    color: #dddddd;
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -301,7 +301,7 @@
 #flightDataDisplay .hud-drag-handle {
     grid-column: 1 / -1;
     text-align: center;
-    color: rgba(255, 159, 5, 0.3);
+    color: rgba(255, 255, 255, 0.3);
     font-size: 14px;
     letter-spacing: 4px;
     line-height: 1;
@@ -312,14 +312,14 @@
 }
 #flightDataDisplay .hud-section-header {
     grid-column: 1 / -1;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    color: rgba(255, 159, 5, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 10px;
     margin-bottom: 4px;
-    border-bottom: 1px solid rgba(255, 159, 5, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 2px;
 }
 #flightDataDisplay .hud-section-header:first-of-type {
@@ -337,7 +337,7 @@
     border: 1px solid rgba(255,255,255,0.1);
     color: rgba(255,255,255,0.85);
     border-radius: 4px;
-    font-size: 8px;
+    font-size: 10px;
     cursor: pointer;
     padding: 3px 2px;
     font-family: Roboto, sans-serif;
@@ -348,9 +348,9 @@
     user-select: none;
 }
 #flightDataDisplay .unified-tab.active {
-    background: rgba(255, 159, 5, 0.15);
-    border-color: #ff9f05;
-    color: #ff9f05;
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #dddddd;
+    color: #dddddd;
 }
 #flightDataDisplay .unified-content {
     display: none;
@@ -373,7 +373,7 @@
     padding: 8px 14px;
     margin: 4px 0;
     border-radius: 6px;
-    background: rgba(255, 159, 5, 0.12);
+    background: rgba(255, 255, 255, 0.12);
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
@@ -385,7 +385,7 @@
     user-select: none;
 }
 .addonpack-category:hover {
-    background: rgba(255, 159, 5, 0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 /* ── HUD minimize button ── */
@@ -401,7 +401,7 @@
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-left: none;
     border-radius: 0 7px 7px 0;
-    color: #ff9f05;
+    color: #dddddd;
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -417,7 +417,7 @@
 }
 #hudMinimizeBtn:hover {
     background: rgba(45, 45, 45, 0.95);
-    border-color: rgba(255, 159, 5, 0.4);
+    border-color: rgba(255, 255, 255, 0.4);
     color: #fff;
     box-shadow: 0 4px 14px rgba(0,0,0,0.4);
 }
@@ -450,15 +450,15 @@
     user-select: none;
 }
 .addonpack-block:hover {
-    background: rgba(255, 159, 5, 0.1);
-    border-color: rgba(255, 159, 5, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
     color: #fff;
 }
 .addonpack-block.active {
-    background: rgba(255, 159, 5, 0.15);
-    border-color: #ff9f05;
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #dddddd;
     color: #fff;
-    box-shadow: 0 0 8px rgba(255, 159, 5, 0.25);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
 }
 
 /* ── Addon-Pack Card System ── */
@@ -504,7 +504,7 @@
     font-size: 0.75rem;
     font-weight: 800;
     letter-spacing: 1.5px;
-    color: #ff9f05;
+    color: #dddddd;
     text-transform: uppercase;
 }
 .addonpack-card-content {
@@ -514,13 +514,13 @@
     width: 72px;
     height: 72px;
     border-radius: 50%;
-    border: 3px solid #ff9f05;
+    border: 3px solid #dddddd;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 20px rgba(255, 159, 5, 0.25);
-    background: rgba(255, 159, 5, 0.03);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.03);
 }
 .addonpack-badge {
     flex: 1;
@@ -558,10 +558,10 @@
     appearance: none;
     width: 16px;
     height: 16px;
-    background: #ff9f05;
+    background: #dddddd;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(255, 159, 5, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     border: 2px solid #fff;
     transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -573,16 +573,16 @@
 .addonpack-input {
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    color: #ff9f05;
+    color: #dddddd;
     border-radius: 6px;
     padding: 4px 8px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     font-size: 11px;
     text-align: center;
     transition: border-color 0.2s;
 }
 .addonpack-input:focus {
-    border-color: #ff9f05;
+    border-color: #dddddd;
     outline: none;
 }
 
@@ -603,8 +603,8 @@
     user-select: none;
 }
 .addonpack-btn:hover {
-    background: rgba(255, 159, 5, 0.15);
-    border-color: #ff9f05;
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #dddddd;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
@@ -626,7 +626,51 @@
     background: rgba(34, 197, 94, 0.3);
     border-color: #22c55e;
 }
-    `;
+    
+/* GeoFS in-flight controls: native black pads, gray outlines, and neutral typography. */
+#flightDataDisplay, #hudMinimizeBtn, .addonpack-card, #opEngineCard, #geofs-failure-menu {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border: 1px solid #888 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35) !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+#flightDataDisplay .hud-drag-handle, #flightDataDisplay .hud-section-header,
+#flightDataDisplay .hud-label, #opEngineHeaderText, #fail-header span {
+    color: #ddd !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    letter-spacing: normal !important;
+}
+#flightDataDisplay .unified-tab {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #888;
+    border-radius: 15px;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+#flightDataDisplay .unified-tab.active {
+    background: #4caf50;
+    border-color: #888;
+    color: #fff;
+}
+#flightDataDisplay .hud-section-header { border-bottom-color: #888; }
+#opEngineHeader { background: transparent !important; border-bottom: 1px solid #888 !important; }
+#geofs-failure-menu, #opEngineCard, #statsCard { accent-color: #536dfe; }
+#fail-btn { font-family: Helvetica, Arial, sans-serif; font-weight: normal !important; }
+/* Keep the existing content and controls, but remove decorative inner cards. */
+#flightDataDisplay .hud-section-header { letter-spacing: normal; margin-top: 6px; }
+#hud-checklist-display { background: transparent !important; border: 0 !important; padding: 0 !important; }
+#geofs-failure-menu .sect-header { background: transparent !important; border-bottom: 1px solid #666; border-radius: 0 !important; }
+#statsCard .stat-item { background: transparent !important; border: 0 !important; box-shadow: none !important; }
+#statsCard .addonpack-score-circle { box-shadow: none !important; }
+
+`;
 
     const style = document.createElement('style');
     style.id = 'geofs-design-system';
