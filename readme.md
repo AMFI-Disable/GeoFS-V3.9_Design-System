@@ -1,37 +1,24 @@
-# **GeoFS-V3.9**_Design-System
+# GeoFS-V3.9_Design-System
 
-![Version](https://img.shields.io/badge/Version-V2.0.1-3b82f6?style=flat-square&logo=git&logoColor=white)
-![Ecosystem](https://img.shields.io/badge/GeoFS--V3.9-Design_System-6366f1?style=flat-square&logo=blueprint&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Stable-10b981?style=flat-square&logo=lighthouse&logoColor=white)
+![Version](https://img.shields.io/badge/Version-v3.9.0-3b82f6?style=flat-square)
 
-The official visual language and UI token library for **GeoFS-V3.9**. This system provides GeoFS-style panels, controls, and typography for the ecosystem. It provides a unified, premium look and feel across all addons.
+Provides shared GeoFS-style controls and styling for the ecosystem.
 
----
+## Features
 
-## ⚖️ Educational & Fair-Play Disclaimer
+- Applies common styles to supported panels, controls, and HUD elements.
+- The library is used by the other standalone scripts as a shared dependency.
 
-> [!CAUTION]
-> **IMPORTANT NOTICE & DISCLAIMER**:
-> This codebase is provided strictly for educational, research, and testing purposes in authorized environments.
-> Using automated assistance or unauthorized scripts in violation of platform terms of service or anti-cheat policies may lead to account penalties.
-> The developers and contributors accept no responsibility or liability for misuse of this software.
+## Installation
 
----
+1. Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/).
+2. Install or update the script from [Greasy Fork](https://greasyfork.org/en/scripts/581511-geofs-v3-9-design-system).
+3. Open or reload GeoFS V3.9. The script starts automatically.
 
-## ✨ Features
+The script activates only when GeoFS reports version V3.9 (including V3.9 patch releases). It waits for the version to become available and remains inactive on other versions. Most standalone scripts load the Core Library and Design System as dependencies; the userscript manager handles those dependencies.
 
-- **🎛️ Native GeoFS UI**: Dark in-flight panels, gray outlines, and familiar control states aligned with GeoFS.
-- **🎨 Centralized Styles**: central styling stylesheet that ensures 100% visual consistency across modules.
-- **🧩 Component Library**: Pre-styled buttons, sliders, cards, and input fields optimized for the GeoFS environment.
-- **📱 Responsive Layouts**: Adaptive design tokens that ensure UI components look premium on all screen sizes and resolutions.
-- **🚀 CDN Loader Architecture**: Automatically injects unified CSS layout rules to maximize visual impact.
+The **GeoFS-V3.9_Ecosystem** panel shows startup status and notifications. Select × to dismiss it, or wait for it to disappear. A script listed as not detected is not necessarily uninstalled.
 
-## 🛠️ Installation
+## License
 
-### Standalone (Tampermonkey)
-
-1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension.
-2. Install the script via [**Greasy Fork**](https://greasyfork.org/en/scripts/581511-geofs-v3-9-design-system).
-3. This module acts as a dependency/visual base and runs automatically in the background to assist other modules.
-
-*© 2026 AMFI-Disable. Part of the [**GeoFS-V3.9**_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
+[MIT](license) · © 2026 AMFI-Disable · [GeoFS-V3.9 Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home)

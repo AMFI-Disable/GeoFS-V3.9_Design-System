@@ -50,7 +50,6 @@
 // @name:km             GeoFS-V3.9_ប្រظمةរចនា
 // @name:lo             GeoFS-V3.9_ລະບົບການອອກແບບ
 // @name:ur             GeoFS-V3.9_ڈیزائن-سسٹم
-
 // @description         A unified design framework matching GeoFS native controls across all standalone modules. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 // @description:vi      Khung thiết kế thống nhất cho GeoFS-V3.9, cung cấp giao diện người dùng màu xám đậm và cam cao cấp trên tất cả các mô-đun độc lập. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 // @description:zh-CN   GeoFS-V3.9 的统一设计框架，在所有独立模块中提供优质的原生感深灰色和橙色 UI。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
@@ -103,43 +102,49 @@
 // @description:lo      ກອບການອອກແບບທີ່ເປັນເອກະພາບສໍາລັບ GeoFS-V3.9, ສະຫນອງ UI ສີເທົາເຂັ້ມ ແລະ ສີສົ້ມລະດັບພຣີມຽມໃນທົ່ວທຸກໂมດູນ standalone. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 // @description:ur      GeoFS-V3.9 کے لیے ایک متحد ڈیزائن کا فریم ورک، تمام اسٹینڈ اسٹون ماڈیولز میں ایک پریمیم ڈارک-گرے اور نارنجی UI فراہم کرتا ہے۔ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 
+// @namespace           https://greasyfork.org/users/1594049
+// @version             3.9.0
+// @author              AMFI-Disable
 // @homepageURL         https://sites.google.com/view/geofs-v39-ecosystem/home
-// @connect             greasyfork.org
+// @icon                https://www.geo-fs.com/images/icons/favicon.ico
+// @match               https://www.geo-fs.com/geofs.php*
+// @grant               none
+// @license             MIT
+// @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
 // @compatible          chrome
 // @compatible          firefox
 // @compatible          edge
 // @compatible          safari
 // @compatible          brave
 // @compatible          opera
-// @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
-// @icon                https://www.geo-fs.com/images/icons/favicon.ico
-
-// @namespace           https://greasyfork.org/users/1594049
-// @version             2.0.5
-// @author              AMFI-Disable
-// @match               https://www.geo-fs.com/geofs.php*
-// @grant               none
-// @license             MIT
-// @downloadURL https://update.greasyfork.org/scripts/581511/GeoFS-V39_Design-System.user.js
-// @updateURL https://update.greasyfork.org/scripts/581511/GeoFS-V39_Design-System.meta.js
 // ==/UserScript==
+
+// Wait for GeoFS to report its version before executing any module code.
+// Unknown, older, and newer versions never activate this V3.9 release.
+(function waitForGeoFSVersion() {
+    const version = window.geofs?.version;
+    if (version === undefined || version === null || version === '') {
+        setTimeout(waitForGeoFSVersion, 250);
+        return;
+    }
+    if (!/^(?:v)?3\.9(?:\.\d+)*$/i.test(String(version).trim())) {
+        console.warn('[GeoFS-V3.9_Design-System] Inactive: GeoFS ' + version + ' is not V3.9.');
+        return;
+    }
+
 
 (() => {
     /**
      * Runtime Version Guard: GeoFS-V3.9 Suite Compatibility
-     * Ensures this module only executes on GeoFS v3.9 or earlier, and gracefully
-     * deactivates if GeoFS v4.0+ is detected.
+     * Allows this module to execute only when GeoFS reports version 3.9.
      */
     function isUnsupportedGeoFS() {
         const raw = window.geofs?.version;
-        if (raw === undefined || raw === null) return false;
-        const clean = typeof raw === 'string' ? raw.replace(/^[^\d.]*/, '') : raw;
-        const num = typeof clean === 'number' ? clean : parseFloat(clean);
-        return !isNaN(num) && num >= 4.0;
+        return !/^(?:v)?3\.9(?:\.\d+)*$/i.test(String(raw ?? '').trim());
     }
 
     if (isUnsupportedGeoFS()) {
-        console.warn("[GeoFS-V3.9_Design-System] Inactive: GeoFS v" + window.geofs?.version + " detected (suite only supports GeoFS v3.9 and earlier).");
+        console.warn("[GeoFS-V3.9_Design-System] Inactive: GeoFS v" + window.geofs?.version + " detected (suite only supports GeoFS v3.9).");
         return;
     }
 
@@ -679,4 +684,6 @@
     
     console.log("[GeoFS-V3.9_Design-System] >> Styles injected via library wrapper.");
     if (window.V39_NOTIF) window.V39_NOTIF.success("GeoFS-V3.9_Design-System V2.0.1 Loaded.");
+})();
+
 })();
